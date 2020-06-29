@@ -27,7 +27,7 @@ def add_var(namespace, added_var):
 
 
 def get_namespace(finding_namespace, finding_var):
-    """ Возвращает неймспейс соответствующий переменной
+    """ Возвращает неймспейс, соответствующий переменной
     """
     if (variables.get(finding_namespace) == finding_var) or (variables.get(finding_namespace) and (finding_var in variables.get(finding_namespace))):
         return finding_namespace
